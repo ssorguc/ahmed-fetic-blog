@@ -1,0 +1,349 @@
+body {
+  margin: 0;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+/*FONTOVI*/
+.barlow-semi condensed-thin {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.protest-guerrilla-regular {
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*pravougaonik cijeli*/
+.nav-bar {
+  background-color: #0F1035;
+  padding-top: 25px;
+  padding-left: 30px;
+  padding-bottom: 25px;
+  display: flex;
+  margin-right: 0px;
+}
+
+
+
+/*img tag logo slike*/
+.logo-img {
+  height: 30px;
+}
+
+
+
+/*div logo slike*/
+.nav-logo {
+  width: 10%;
+}
+
+
+
+/*div o nama*/
+.nav-kontakt {
+  width: 20%;
+}
+
+
+
+/*a tag*/
+.nav-link{
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+   
+}
+
+
+
+.nav-trening {
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+  margin-left: 70px;
+}
+
+
+
+.nav-brat {
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+}
+
+
+
+.nav-home {
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+  margin-left: 70px;
+}
+
+
+
+.heder h1 {
+  margin: 0;
+  padding-top: 20%;
+  text-align: center;
+  font-family: "Protest Guerrilla", sans-serif;
+  color: #0F1035;
+  font-size: 26px;
+}
+
+.heder p {
+  text-align: center;
+  color: #0F1035;
+  font-size: 28px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  width: 58%;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+
+
+/* ZA cologne*/
+.vanjski {
+  display: flex;
+  text-align: center;
+}
+
+
+
+.unutrasnji {
+  flex: 1;
+}
+
+.heder {
+  background: #365486;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #365486, #7FC7D9, #DCF2F1);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #365486, #7FC7D9, #DCF2F1);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-size: cover;
+  height: 100vh;
+}
+
+
+
+.ahmed {
+  height: 40px;
+  border-radius: 40px;
+}
+
+
+
+.dadi2 {
+  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+    URL("../../media/examples/lizard.png");
+  background-size: cover;
+  height: 100vh;
+  margin-top: 0;
+}
+
+
+
+.trening2 {
+  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+    URL("../../media/examples/lizard.png");
+  background-size: cover;
+  height: 100vh;
+  margin-top: 0;
+}
+
+
+
+.img {
+  height: 500px;
+  width: 300px;
+}
+
+
+
+.footer {
+  background-color: #365486;
+  margin-top: 0px;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+
+}
+
+
+
+.kontakt {
+  text-align: center;
+  margin: 0px;
+  padding: 10px;
+}
+
+
+
+.email {
+  text-align: center;
+  margin: 0px;
+  padding-bottom: 10px;
+}
+
+.kontakt-img {
+  height: 70px;
+}
+
+.hobi-div {
+  padding: 50px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.hobi-div h1 {
+  color: #7FC7D9;
+  font-family: "Protest Guerrilla", sans-serif;
+}
+
+.hobi-img {
+  width: 50px;
+}
+
+
+.unutrasnji {
+  padding: 20px;
+}
+
+.medalje {
+  height: 500px;
+  text-align: center;
+  margin-top: 60px;
+  background-color: #DCF2F1;
+}
+
+.medalje img {
+  height: 100px;
+}
+
+.medalje h2 {
+  color: #FBA834;
+  font-size: 100px;
+  font-family: "Protest Guerrilla", sans-serif;
+}
+
+.bjj-info {
+  padding: 50px;
+}
+
+
+.o-meni-div {
+  align-items: center;
+  height: 100vh;
+  margin-left: 90px;
+}
+
+.o-meni-text {
+  text-align: left;
+}
+
+.o-meni-div h1 {
+  margin: 0;
+  text-align: left;
+  font-size: 60px;
+  font-family: "Protest Guerrilla", sans-serif;
+
+}
+
+.plav-text {
+  color: #7FC7D9;
+}
+
+#saznaj {
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  background-color: #4299e1;
+  border-radius: 50px;
+  padding: 8px 16px;
+  font-weight: 700;
+  color: white;
+  line-height: 26px;
+  font-size: 22px;
+}
+
+.naslov {
+  animation-name: primjer;
+  animation-duration: 5s;
+  animation-delay: 1s;
+}
+
+@keyframes primjer {
+  from {
+    color: #7FC7D9;
+    font-size: 12px;
+  }
+
+  to {
+    color: #0F1035;
+    font-size: 26px;
+  }
+}
+
+.bjj-info-h1 {
+  font-size: 26px;
+  animation: fade-in 3s;
+}
+
+@keyframes primjer2 {
+  0% {
+    color: #7FC7D9;
+  }
+
+  25% {
+    color: #0F1035;
+  }
+
+  50% {
+    color: #DCF2F1;
+  }
+
+  100% {
+    color: #7FC7D9;
+  }
+}
+
+.fade-in {
+  animation-name: fade-in;
+  animation-duration: 4s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.pade-in:hover {
+opacity: 100%;
+  transition:opascity 1s;
+}
+
+
+
+/*BOJE
+boja1 svijetla: #DCF2F1
+boja2 svijetloplava: #7FC7D9
+boja3: tamnija plava: #365486
+boja4: teget: #0F1035
+boja5: narandzasta #FBA834
+*/
